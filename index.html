@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
+    <title>Prakash Fitness</title>
+
+    <style>
+   /* CSS Reset */
+   body{
+    font-family: 'Baloo Bhai 2', cursive;
+       margin: 0px;
+       padding: 0px;
+       background: url('img/brg.png');
+       color:white;
+         }
+         .left{
+            
+             position: absolute;
+             display: inline-block;
+             left: 60px;
+             top: 20px;
+             
+         }
+         .mid{
+            display: block;
+            width: 53%;
+             margin:12px auto ;
+             
+                 top: 40px;
+         }
+         .right{
+             
+             position: absolute;
+             right: 34px;
+             top: 33px;
+
+         }
+         .navbar {
+             display: inline-block;
+         }
+         .navbar li{
+             
+            display: inline-block;
+            font-size: 25px;
+         }
+         .navbar li a{
+             color: white;
+             text-decoration: none;
+             padding: 22px;
+         }
+         .navbar li a:hover, .navbar li a.active{
+             text-decoration: underline;
+             color: gray;
+         }
+         .left img{
+             width: 120px;
+                       
+         }
+         .left div{
+             text-align: center;
+             font-size: 20px;
+             line-height: 19px;
+             
+         }
+         .btn{
+            font-family: 'Baloo Bhai 2', cursive;
+             margin: 0px 9pxs;
+             color: white;
+             background-color: black;
+             padding: 2px 18px;
+             border: 3px solid gray;
+             border-radius: 10px;
+             font-size: 20px;
+             cursor: pointer;
+         }
+         .btn:hover{
+             background-color: rgb(58, 56, 56);
+
+         }
+         .container{
+             border: 2px solid green;
+
+             margin: 100px 88px;
+    padding: 75px;
+    width: 30%;
+    border-radius: 6px;
+}
+.form-group input{
+    font-family: 'Baloo Bhai 2', cursive;
+    text-align: center;
+    display: block;
+    width: 486px;
+    padding: 1px;
+    border: 3px solid black;
+    margin: 8px auto;
+    font-size: 27px;
+    border-radius: 8px;
+}
+.container h1{
+    text-align: center;
+    font-size: 2em;
+    
+}
+.container button{
+    display: block;
+    width: 109%;
+    margin: auto;
+    background-color: black;
+    color: white;
+    height: 40px;
+        
+}
+.button:hover{
+background-color: RED;
+cursor: pointer;
+}
+.foot{
+    display: flex;
+    border: 3px solid gray;
+}
+.feedback{
+           float: right;
+           border: 3px solid yellow;
+           margin: 0px 9pxs;
+                     
+
+        }
+        
+
+
+
+         
+    </style>
+</head>
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@500&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="css/style.css">
+<body>
+       <header class="header">
+        <div class="left">
+<img src="img/zym.png" alt="">
+<div>Prakash Fitness
+
+</div>
+        </div>
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <a href="https://linkedin.com/in/prakash-pandey-620649172" target="_blank">Give is your Feedback</a>
+            </ul>
+        </div>
+        <div class="right">
+<button class="btn">Call Us Now</button>
+<button class="btn">Email Us</button>
+        </div>
+    </header>
+    <div class="container">
+      <h1>Join the best gym of Uttarakhand now</h1>
+      <form action="noaction.php"></form>
+      <div class="form-group">
+          <input type="text" name="" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+          <input type="text" name="" placeholder="Enter your locality">
+      </div>
+      <div class="form-group">
+          <input type="text" name="" placeholder="Select your gender">
+      </div>
+      <div class="form-group">
+          <input type="text" name="" placeholder="Select your age group">
+      </div>
+      <button class="button">Submit</button>
+    </div>
+   
+        
+        
+        <div class="foot">
+    <footer class="text-gray-600 body-font">
+        <div class="contentr px-5 py-8 mx-auto flex items-center sm:flex-row flex-col">
+          <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                        
+            <span class="ml-3 text-xl">Energy Booster</span>
+          </a>
+          <p class="text-sm text-gray-500 sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4">© 2021 Urrarakhand —
+            <a href="https://twitter.com/pandey299prakash" class="text-gray-600 ml-1" rel="noopener noreferrer" target="_blank">@Prakash</a>
+          </p>
+          <span class="inline-flex sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start">
+            <a class="text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <path d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+              </svg>
+            </a>
+            <a class="ml-3 text-gray-500">
+              <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                <path stroke="none" d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z"></path>
+                <circle cx="4" cy="4" r="2" stroke="none"></circle>
+              </svg>
+            </a>
+          </span>
+        </div>
+      </footer>
+    </section>
+</div>
+</body>
+</html>
